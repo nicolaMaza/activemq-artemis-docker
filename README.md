@@ -1,11 +1,5 @@
 ![latest 2.16.0](https://img.shields.io/badge/latest-2.16.0-blue.svg?style=flat) ![License MIT](https://img.shields.io/badge/license-APACHE-blue.svg) [![Build Status](https://travis-ci.org/vromero/activemq-artemis-docker.svg?branch=master)](https://travis-ci.org/vromero/activemq-artemis-docker) [![](https://img.shields.io/docker/stars/vromero/activemq-artemis.svg)](https://hub.docker.com/r/vromero/activemq-artemis 'DockerHub') [![](https://img.shields.io/docker/pulls/vromero/activemq-artemis.svg)](https://hub.docker.com/r/vromero/activemq-artemis 'DockerHub') [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/vromero)
 
-## THIS PROJECT IS ARCHIVED 
-
-It has been quite a ride but after a few years, with multiple initiatives going on around Artemis and Docker both from Redhat and from Apache, I've decided that its time to let these project take the spot the community around this project and I have been occuping till now.
-
-Of course the project will remain read-only and you should feel free to fork but I won't be maintaining anymore.
-
 ## 1. What is ActiveMQ Artemis?
 
 [Apache ActiveMQ Artemis](https://activemq.apache.org/artemis) is an open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system. Apache ActiveMQ Artemis is an example of Message Oriented Middleware (MoM).
