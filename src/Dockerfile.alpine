@@ -5,7 +5,6 @@
 ##########################################################
 ARG BASE_IMAGE
 FROM openjdk:8u171-jdk-stretch as builder
-LABEL maintainer="Victor Romero <victor.romero@gmail.com>"
 
 ARG ACTIVEMQ_ARTEMIS_VERSION
 ARG ACTIVEMQ_DISTRIBUTION_URL
