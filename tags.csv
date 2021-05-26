@@ -1,3 +1,5 @@
 Repository,Tag,Base Image,Aliases,Dockerfile
 nicolamaza/activemq-artemis,2.16.0,openjdk:8u232-jre-stretch,nicolamaza/activemq-artemis:2.16-latest nicolamaza/activemq-artemis:2-latest nicolamaza/activemq-artemis:latest,Dockerfile
 nicolamaza/activemq-artemis,2.16.0-alpine,openjdk:8u212-jre-alpine3.9,nicolamaza/activemq-artemis:2.16-alpine-latest nicolamaza/activemq-artemis:2-alpine-latest nicolamaza/activemq-artemis:alpine-latest,Dockerfile.alpine
+nicolamaza/activemq-artemis,2.17.0,openjdk:8u232-jre-stretch,nicolamaza/activemq-artemis:2.17-latest nicolamaza/activemq-artemis:2-latest nicolamaza/activemq-artemis:latest,Dockerfile
+nicolamaza/activemq-artemis,2.17.0-alpine,openjdk:8u212-jre-alpine3.9,nicolamaza/activemq-artemis:2.17-alpine-latest nicolamaza/activemq-artemis:2-alpine-latest nicolamaza/activemq-artemis:alpine-latest,Dockerfile.alpine
