@@ -1,50 +1,9 @@
-![latest 2.16.0](https://img.shields.io/badge/latest-2.16.0-blue.svg?style=flat) ![License MIT](https://img.shields.io/badge/license-APACHE-blue.svg) [![Build Status](https://travis-ci.org/vromero/activemq-artemis-docker.svg?branch=master)](https://travis-ci.org/vromero/activemq-artemis-docker) [![](https://img.shields.io/docker/stars/vromero/activemq-artemis.svg)](https://hub.docker.com/r/vromero/activemq-artemis 'DockerHub') [![](https://img.shields.io/docker/pulls/vromero/activemq-artemis.svg)](https://hub.docker.com/r/vromero/activemq-artemis 'DockerHub') [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/vromero)
-
 ## 1. What is ActiveMQ Artemis?
 
 [Apache ActiveMQ Artemis](https://activemq.apache.org/artemis) is an open source project to build a multi-protocol, embeddable, very high performance, clustered, asynchronous messaging system. Apache ActiveMQ Artemis is an example of Message Oriented Middleware (MoM).
 
 ![logo](https://activemq.apache.org/assets/img/activemq_logo_black_small.png)
 
-## 2. Tags and `Dockerfile` links
-
-| Debian Based                                                                                 | Alpine Based                                                                                               |
-|--------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [`latest`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile) | [`latest-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine) |
-| [`2.16.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.16.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.15.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.15.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.14.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.14.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.13.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.13.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.12.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.12.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.11.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.11.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.10.1`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.10.1-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.10.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.10.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.9.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.9.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.8.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.8.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.7.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.7.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.6.4`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.6.4-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.6.3`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.6.3-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.6.2`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.6.2-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.6.1`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.6.1-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.6.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.6.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.5.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.5.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.4.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.4.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.3.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.3.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.2.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.2.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.1.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.1.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`2.0.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`2.0.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| [`1.5.6`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)  | [`1.5.6-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)  |
-| ~~[`1.5.5`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.5.5-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.5.4`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.5.4-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.5.3`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.5.3-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.5.2`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.5.2-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.5.1`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.5.1-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.5.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.5.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.4.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.4.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.3.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.3.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.2.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.2.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.1.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.1.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
-| ~~[`1.0.0`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile)~~  | ~~[`1.0.0-alpine`](https://raw.githubusercontent.com/vromero/activemq-artemis-docker/master/src/Dockerfile.alpine)~~  |
 
 ## 3. About this image
 
@@ -103,7 +62,7 @@ run the following command:
 docker run -it --rm \
   -p 8161:8161 \
   -p 61616:61616 \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```  
 
 After a few seconds you'll see in the output a block similar to:
@@ -128,7 +87,7 @@ If you wish to change the default username and password of `artemis` / `simetrae
 docker run -it --rm \
   -e ARTEMIS_USERNAME=myuser \
   -e ARTEMIS_PASSWORD=otherpassword \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 
 ### 5.2 Setting the memory values
@@ -142,7 +101,7 @@ circumstances it might be advisable to fine tune the memory to manual values, in
 docker run -it --rm \
   -e 'ARTEMIS_MIN_MEMORY=1512M' \
   -e 'ARTEMIS_MAX_MEMORY=3048M' \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 
 The previous example will launch Apache ActiveMQ Artemis in docker with 1512 MB of memory, with a maximum usage of 3048 MB of memory.
@@ -167,7 +126,7 @@ in the next listing:
 ```console
 docker run -it --rm \
   -e ARTEMIS_PERF_JOURNAL=ALWAYS \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 
 ### 5.4 Critical Analysis
@@ -199,7 +158,7 @@ docker run -it --rm \
   -e ENABLE_JMX=true \
   -e JMX_PORT=1199 \
   -e JMX_RMI_PORT=1198 \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 
 ### 5.6 Using JSON Output
@@ -211,7 +170,7 @@ the output. To enable it `LOG_FORMATTER=JSON` can be passed as environment varia
 ```console
 docker run -it --rm \
   -e LOG_FORMATTER=JSON \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 When used, the output will look similar to the following listing:
 
@@ -242,7 +201,7 @@ To see what is exported just:
 docker run -it --rm \
   -p9404:9404 \
   -e ENABLE_JMX_EXPORTER=true \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 
 And then in a different terminal run:
@@ -299,7 +258,7 @@ down to whatever value is best suited to you for improved security through the e
 ```console
 docker run -it --rm \
   -e JOLOKIA_ALLOW_ORIGIN=192.168.1.1 \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 
 ### 5.9 Overriding parts of the configuration
@@ -311,7 +270,7 @@ This docker image makes it simple to set that element using the environment prop
 ```console
 docker run -it --rm \
   -e DISABLE_SECURITY=true \
-  vromero/activemq-artemis
+  nicolamaza/activemq-artemis
 ```
 
 Please keep in mind no production system, possible no environment at all, should ever disable security.
@@ -410,7 +369,7 @@ If you would like to see the final result of your transformations, execute the f
 ```
 docker run -it --rm \
   -v /var/artemis-data/override:/var/lib/artemis/etc-override \
-  vromero/activemq-artemis \
+  nicolamaza/activemq-artemis \
   cat ../etc/broker.xml
 ```
 
@@ -424,7 +383,7 @@ Below is an example which overrides the global-max-size and disk-scan-period val
 docker run -it --rm   -p 8161:8161 \
     -e BROKER_CONFIG_GLOBAL_MAX_SIZE=50000 \
     -e BROKER_CONFIG_DISK_SCAN_PERIOD=6000 \
-    vromero/activemq-artemis
+    nicolamaza/activemq-artemis
 ```
 
 ### 5.13 Environment Variables
@@ -486,21 +445,11 @@ The biggest problem to run this image is the automount of empty directories beca
 In order to restore it the environment variable `RESTORE_CONFIGURATION` has been created. It can be used as follows:
 
 ```bash
-oc new-app --name=artemis vromero/activemq-artemis -e RESTORE_CONFIGURATION=true
+oc new-app --name=artemis nicolamaza/activemq-artemis -e RESTORE_CONFIGURATION=true
 ```
 
 ## 7. License
 
 View [license information](http://www.apache.org/licenses/LICENSE-2.0) for the software contained in this image.
 
-## 8. User Feedback
 
-### 8.1 Issues
-
-If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/vromero/activemq-artemis-docker/issues).
-
-### 8.2 Contributing
-
-You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
-
-Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/vromero/activemq-artemis-docker/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
