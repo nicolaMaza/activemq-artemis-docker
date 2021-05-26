@@ -452,4 +452,6 @@ oc new-app --name=artemis nicolamaza/activemq-artemis -e RESTORE_CONFIGURATION=t
 
 View [license information](http://www.apache.org/licenses/LICENSE-2.0) for the software contained in this image.
 
+## 8. Credits
 
+Forked and based on the deprecated: https://github.com/vromero/activemq-artemis-docker
