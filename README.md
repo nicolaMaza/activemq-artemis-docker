@@ -5,6 +5,14 @@
 ![logo](https://activemq.apache.org/assets/img/activemq_logo_black_small.png)
 
 
+## 2. Tags and `Dockerfile` links
+
+| Debian Based                                                                                 | Alpine Based                                                                                               |
+|--------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [`latest`](https://raw.githubusercontent.com/nicolamaza/activemq-artemis-docker/master/src/Dockerfile) | [`latest-alpine`](https://raw.githubusercontent.com/nicolamaza/activemq-artemis-docker/master/src/Dockerfile.alpine) |
+
+
+
 ## 3. About this image
 
 The ActiveMQ Artemis images come in two flavors, both equally supported :
